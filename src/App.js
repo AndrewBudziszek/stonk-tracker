@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Ayyyyy from './components/ayyyyy'
+import FreeBreakfastIcon from '@material-ui/icons/FreeBreakfast';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Ayyyyy />
       </header>
+      <div id='footer'>Powered by Alpha Vantage <br />
+        Buy me a share! <a href="https://www.buymeacoffee.com/SonBrooks" target="_blank" variant="caption"><FreeBreakfastIcon />
+        </a>
+      </div>
     </div>
   );
 }
