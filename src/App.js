@@ -15,7 +15,7 @@ function App() {
         <Ayyyyy />
       </header>
       <div id='footer'>Powered by Alpha Vantage <br />
-        Buy me a share! <a href="https://www.buymeacoffee.com/SonBrooks" target="_blank" variant="caption"><FreeBreakfastIcon />
+        Buy me a share! (or a coffee)<a href="https://www.buymeacoffee.com/SonBrooks" target="_blank" variant="caption"><FreeBreakfastIcon />
         </a>
       </div>
     </div>
