@@ -4,6 +4,11 @@ import FreeBreakfastIcon from '@material-ui/icons/FreeBreakfast';
 
 
 function App() {
+  useEffect(() => {
+    // Update the document title using the browser API
+    document.title = `${process.env.REACT_APP_TITLE}`;
+  });
+
   return (
     <div className="App">
       <header className="App-header">

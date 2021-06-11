@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Stonk Tracker",
+  "name": "Is it up?",
   "icons": [
     {
       "src": "favicon.ico",
