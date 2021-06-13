@@ -20,11 +20,10 @@ const Ayyyyy = () => {
                     stockPricesData[i] = response.data["Time Series (5min)"][timeIntervalsData[i]]["4. close"];
                 }
 
-                setIsUp(stockPrices[0] <= stockPrices[stockPrices.length - 1])
+                setIsUp(stockPrices[0] >= stockPrices[stockPrices.length - 1])
                 setTimeIntervals(timeIntervalsData);
                 setStockPrices(stockPricesData);
                 setGotData(true);
-                console.log(timeIntervalsData, stockPricesData)
             }).catch(error => {
                 console.error(error)
             })
@@ -45,7 +44,7 @@ const Ayyyyy = () => {
             <h2>{isUp ? "🌙🚀TO THA MOON!🚀🌙" : "🙌💎Diamond Hands💎🙌"}</h2>
             <h2 style={{
                 color: isUp ? 'green' : 'red'
-            }}>{formatter.format(stockPrices[stockPrices.length - 1])}</h2>
+            }}>{formatter.format(stockPrices[0])}</h2>
             <h3>{isUp ? "(it's up)" : "(it's down)"}</h3>
         </div>
     )
