@@ -24,6 +24,7 @@ const Ayyyyy = () => {
                 setTimeIntervals(timeIntervalsData);
                 setStockPrices(stockPricesData);
                 setGotData(true);
+                console.log(timeIntervalsData, stockPricesData)
             }).catch(error => {
                 console.error(error)
             })
