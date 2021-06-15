@@ -20,7 +20,7 @@ const Ayyyyy = () => {
                     stockPricesData[i] = response.data["Time Series (5min)"][timeIntervalsData[i]]["4. close"];
                 }
 
-                setIsUp(stockPrices[0] >= stockPrices[stockPrices.length - 1])
+                setIsUp(stockPrices[stockPrices.length - 1] >= stockPrices[0])
                 setTimeIntervals(timeIntervalsData);
                 setStockPrices(stockPricesData);
                 setGotData(true);
