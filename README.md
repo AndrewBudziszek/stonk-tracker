@@ -1,5 +1,5 @@
 # Stonk Tracker
-Stonk Tracker is a dynamic React app that pulls stock price information and tells you whether it's up or down for the day.
+Stonk Tracker is a dynamic React app that pulls stock price information to tell you whether it's up or down for the day.
 
 ### Inspiration and Implementation
 The Stonk Tracker was inspired by the [GME/AMC short sqeeze](https://en.wikipedia.org/wiki/GameStop_short_squeeze) of 2021. I wanted to make a simple app that would give users feedback as soon as they visited as to whether or not their favorite stock was in the green. 
