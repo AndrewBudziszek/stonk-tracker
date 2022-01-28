@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+# Stonk Tracker
+Stonk Tracker is a dynamic React app that pulls stock price information and tells you whether it's up or down for the day.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Inspiration and Implementation
+The Stonk Tracker was inspired by the [GME/AMC short sqeeze](https://en.wikipedia.org/wiki/GameStop_short_squeeze) of 2021. I wanted to make a simple app that would give users feedback as soon as they visited as to whether or not their favorite stock was in the green. 
 
-## Available Scripts
+I wanted this app to be super easy to deploy, easy to update, and easy to replicate. To accomplish this, I used AWS Amplify for deployments. AWS Amplify offers some nifty features like auto-deployments, easy custom URLs, and the most important part - easy to change environment variables.
 
-In the project directory, you can run:
+The thing that makes this app pretty cool is the use of environment variables. For example, if a new meme stock shows up, I can quickly deploy a new website with no code changes. All I would need to do is setup a project on AWS Amplify(5 minutes), change a few environment variables, and BOOM you have yourself a new meme stock tracker. If things go south with a meme stonk and it runs its course, then spinning a site down is just as easy. 
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Questions?
+Please feel free to reach out to me with any questions about this app. It's definitely not polised, but it was a fun little project that I love talking about.
