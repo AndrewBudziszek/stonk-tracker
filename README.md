@@ -1,3 +1,6 @@
+# Notice
+This project is no longer being maintained.
+
 # Stonk Tracker
 Stonk Tracker is a dynamic React app that pulls stock price information to tell you whether it's up or down for the day.
 
